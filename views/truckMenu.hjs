@@ -1,1 +1,13 @@
-Rename file to .hjs
+<div class="container mt-4">
+  <h3>Truck Menu</h3>
+
+  <select id="categoryFilter" class="form-select w-25 mb-3">
+    <option value="">All Categories</option>
+  </select>
+
+  <div id="menuItems" class="row"></div>
+</div>
+
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/src/truckMenu.js"></script>
+
