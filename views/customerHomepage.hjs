@@ -1,1 +1,15 @@
-Rename file to .hjs
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Dashboard</title>
+</head>
+<body>
+  <h1>Welcome to Food Trucks</h1>
+
+  <ul>
+    <li><a href="/trucks">Browse Trucks</a></li>
+    <li><a href="/cart">My Cart</a></li>
+    <li><a href="/myOrders">My Orders</a></li>
+  </ul>
+</body>
+</html>
