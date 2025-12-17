@@ -1,1 +1,19 @@
-Rename file to .hjs
+$.get("/api/v1/order/myOrders", function (orders) {
+  if (!orders.length) {
+    $("#orders").html("<p>No orders yet</p>");
+    return;
+  }
+
+  orders.forEach(o => {
+    $("#orders").append(`
+      <div class="card mb-2">
+        <div class="card-body">
+          <h5>Order #${o.id}</h5>
+          <p>Status: <span class="badge bg-info">${o.status}</span></p>
+          <p>Total: ${o.total}</p>
+        </div>
+      </div>
+    `);
+  });
+});
+
