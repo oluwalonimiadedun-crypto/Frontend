@@ -1,1 +1,14 @@
-Rename file to .hjs
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Trucks</title>
+</head>
+<body>
+  <h2>Available Food Trucks</h2>
+
+  <div id="truckList"></div>
+
+  <script src="/js/jquery-2.2.0.min.js"></script>
+  <script src="/src/trucks.js"></script>
+</body>
+</html>
