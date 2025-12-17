@@ -1,1 +1,14 @@
-Rename file to .hjs
+<div class="container mt-4">
+  <h3>Add Menu Item</h3>
+
+  <input id="name" class="form-control mb-2" placeholder="Name">
+  <input id="category" class="form-control mb-2" placeholder="Category">
+  <textarea id="description" class="form-control mb-2"></textarea>
+  <input id="price" type="number" step="0.01" class="form-control mb-2">
+
+  <button class="btn btn-success" onclick="addItem()">Add</button>
+  <a href="/menuItems" class="btn btn-secondary">Cancel</a>
+</div>
+
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/src/addMenuItem.js"></script>
