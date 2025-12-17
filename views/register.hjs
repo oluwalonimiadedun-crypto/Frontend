@@ -1,1 +1,19 @@
-Rename file to .hjs
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+</head>
+<body>
+  <h2>Create Account</h2>
+
+  <form id="registerForm">
+    <input id="name" placeholder="Full Name" required /><br/>
+    <input id="email" type="email" placeholder="Email" required /><br/>
+    <input id="password" type="password" placeholder="Password" required /><br/>
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="/js/jquery-2.2.0.min.js"></script>
+  <script src="/src/register.js"></script>
+</body>
+</html>
