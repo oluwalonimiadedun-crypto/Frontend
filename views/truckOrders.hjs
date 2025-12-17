@@ -1,1 +1,7 @@
-Rename file to .hjs
+<div class="container mt-4">
+  <h3>Truck Orders</h3>
+  <div id="orders"></div>
+</div>
+
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/src/truckOrders.js"></script>
