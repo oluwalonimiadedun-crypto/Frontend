@@ -1,1 +1,23 @@
-Rename file to .hjs
+<div class="container mt-4">
+  <h3>Your Cart</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Item</th><th>Price</th><th>Qty</th><th>Total</th><th></th>
+      </tr>
+    </thead>
+    <tbody id="cartBody"></tbody>
+  </table>
+
+  <h4 id="cartTotal"></h4>
+
+  <label>Pickup Time</label>
+  <input type="datetime-local" id="pickupTime" class="form-control w-25 mb-3">
+
+  <button class="btn btn-primary" onclick="placeOrder()">Place Order</button>
+</div>
+
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/src/cart.js"></script>
+
+
