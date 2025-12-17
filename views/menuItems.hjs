@@ -1,1 +1,18 @@
-Rename file to .hjs
+<div class="container mt-4">
+  <h3>Menu Items</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th><th>Name</th><th>Category</th><th>Price</th><th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="items"></tbody>
+  </table>
+
+  <a href="/addMenuItem" class="btn btn-success">Add New Item</a>
+</div>
+
+<script src="/js/jquery-2.2.0.min.js"></script>
+<script src="/src/menuItems.js"></script>
+
+
